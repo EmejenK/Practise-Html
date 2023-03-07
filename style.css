@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/***************basic html tags***************/
+
+ol {
+    color: brown;
+    text-align: center;
+    font-family: serif;
+    font-style: italic;
+}
+
+ol li {
+    list-style-type: lower-roman;
+}
+
+
+/********************LISTS*******************/
+
+h3 {
+    text-decoration: underline;
+    color: blue;
+    font-size: larger;
+}
+
+p {
+    color: chartreuse;
+    font-style: italic;
+}
+
+h4 {
+    text-decoration: dotted;
+    color: aquamarine;
+    text-transform: capitalize;
+}
+
+
+/********************Forms************************/
+
+#cap {
+    color: blue;
+}
+
+legend {
+    color: rgb(176, 219, 21);
+}
+
+.table {
+    background-image: url('logo/f.jpg');
+}
+
+.table td {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(200, 121, 40);
+}
+
+
+/*************Tables********************/
+
+#TABLES {
+    text-decoration: none;
+    color: brown;
+    font-size: 120px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+#caption {
+    text-indent: 10px;
+    color: blue;
+}

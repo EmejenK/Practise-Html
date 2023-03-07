@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <title>html layouts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-image: url('logo/content.jpg');">
+    <caption id="cap">Formattig forms using Tables</caption>
+    <fieldset>
+        <legend>Personal Details</legend> <br>
+        <table border="1" class="table">
+            <form>
+
+                <tr>
+                    <td>Salutation</td>
+                    <td> <select>
+    <option>Mr.</option>
+    <option>Mrs.</option>
+    <option>Miss.</option>
+    <td colspan="2">Name
+     <input type="text" name="name"></td>
+ </select></td>
+
+                </tr>
+                <tr>
+
+                    <td>Gender</td>
+                    <td><input type="radio" name="radio button">Male </input>
+                    </td>
+                    <td><input type="radio" name="radio button">Female </input>
+                    </td>
+                    <td>D.O.B
+                        <input type="Date" name="Date"></input>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td colspan="2"><input type="email" name="email" /></td>
+                    <td rowspan="3">Description: <br> <textarea cols="20" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        Do you wish to get email advert <input type="checkbox" name="checkbox">Yes</input>
+                        <input type="checkbox" name="checkbox">No</input>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;" colspan="3"> <input type="submit" name="submit"></td>
+                </tr>
+
+            </form>
+
+        </table>
+    </fieldset>
+</body>
+
+</html>
